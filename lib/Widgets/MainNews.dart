@@ -10,8 +10,7 @@ class MainNews extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            child: new Image.network(
-                'https://cdnuploads.aa.com.tr/uploads/Contents/2020/12/29/thumbs_b_c_57c592be0d776cd62b3691cc6719c97e.jpg?v=162418'),
+            child: new Image.asset('images/terserah.jpg'),
             alignment: Alignment.center,
           ),
           Text(
